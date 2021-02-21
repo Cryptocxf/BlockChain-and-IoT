@@ -74,7 +74,10 @@
 #### (2) 核心思想  
 
 这是一篇研究区块链技术在物联网中存在的问题和挑战的综述，指出了物联网许多的领域可以用区块链技术来**解决安全和隐私问题**，同时也指出物联网领域并不是都必须用区块链，并提供了一种判断是否必须用区块链的方法，如图1所示。  
-.<img src="https://github.com/Cryptocxf/Reading-Report/blob/main/picture1.png" width="600" height="900" />
+.<div align=center>  
+    <img src="https://github.com/Cryptocxf/Reading-Report/blob/main/picture1.png" width="600" height="900" />  
+ </div>  
+ 
  <p align="center">  
 图1 判断是否必须利用区块链技术的方法流程图  
 </p>  
