@@ -74,7 +74,7 @@
 #### (2) 核心思想  
 
 这是一篇研究区块链技术在物联网中存在的问题和挑战的综述，指出了物联网许多的领域可以用区块链技术来**解决安全和隐私问题**，同时也指出物联网领域并不是都必须用区块链，并提供了一种判断是否必须用区块链的方法，如图1所示。  
-![alt](https://github.com/Cryptocxf/Reading-Report/blob/main/picture1.png "图1")
+.<img src="https://github.com/Cryptocxf/Reading-Report/blob/main/picture1.png" width="600" height="900" />
  <p align="center">  
 图1 判断是否必须利用区块链技术的方法流程图  
 </p>  
@@ -106,8 +106,8 @@
 
 #### (2) 核心思想  
 
-作者研究了传统物联网架构，并分析其中的安全和隐私问题，包括**数据完整性、数据共享、身份验证和访问控制**。另外，作者论证了区块链如何与物联网集成，描述了区块链和物联网**协同工作**的框架，并指出了区块链如何从物联网系统中受益。最后，论文展示了一些可能的解决方案，以解决基于区块链和**以太坊**的物联网系统中的安全和隐私问题。另外还考虑了更多基于区块链的潜在解决方案，以展示区块链在物联网中的强大功能。  
-![alt](https://github.com/Cryptocxf/Reading-Report/blob/main/picture2.png "图2")
+作者研究了传统物联网架构，并分析其中的安全和隐私问题，包括**数据完整性、数据共享、身份验证和访问控制**。另外，作者论证了区块链如何与物联网集成，描述了区块链和物联网**协同工作**的框架，并指出了区块链如何从物联网系统中受益。最后，论文展示了一些可能的解决方案，以解决基于区块链和**以太坊**的物联网系统中的安全和隐私问题。另外还考虑了更多基于区块链的潜在解决方案，以展示区块链在物联网中的强大功能。 
+.<img src="https://github.com/Cryptocxf/Reading-Report/blob/main/picture2.png" width="600" height="500" />
  <p align="center">  
 图2 基于区块链的物联网数据完整性框架  
 </p>  
@@ -122,7 +122,7 @@
     * 预定义一个时间t的时间承诺，卖方在t时间内诚实地向卖方付款后，就可以赎回deposit。否则，deposit可以在交易熔断(Fuse)签字后转寄给卖方。
     * 如果卖方在时间t之前签署了Fuse交易，它是无效的。因为它不能再交易时间tlock内通过矿工的验证。这确保了恶意买家再获得预期数据时不会损害卖方利益。
     * 如果买方也需要受到公平交易的保护，卖方也需要产生一笔交易来支付deposit。
-![alt](https://github.com/Cryptocxf/Reading-Report/blob/main/picture3.png "图3")
+.<img src="https://github.com/Cryptocxf/Reading-Report/blob/main/picture3.png" width="450" height="400" />
  <p align="center">  
 图3 基于区块链的物联网数据共享框架  
 </p>  
@@ -179,7 +179,7 @@
 作者提出了一种基于信任的共识机制的区块链系统，同时能保证系统安全和交易效率。为了保护敏感数据的机密性，作者设计了一个数据权限管理方法去控制对传感器数据的访问。另外，本论文建立基于**有向无环图(Directed Acyclic Graph, DAG)架构的区块链**—tangle，在性能上比传统区块链更高效。  
 
 在tangle网络中，它消除了区块的概念，每笔交易都是链接在分布式分类中的单个节点。在提交一个新交易之前，它必须验证两个已经附加在一起的前交易(在tangle中未验证的交易)，这称为tips。然后，通过工作量证明(POW)算法，新交易与前两个交易捆绑在一起，新的交易可以广播到tangle网络。每笔新交易都将在以后由其他更新的交易进行验证。传统链结构的区块链采用同步共识，而tangle采用了异步共识。DAG结构的区块链并不是一直被单一的主链和分叉所约束，交易之间的关系看起来就像一个错综复杂的网络。这种新颖的体系结构和共识机制可以从理论上提高网络吞吐量和系统响应时间，如图4所示。  
-![alt](https://github.com/Cryptocxf/Reading-Report/blob/main/picture4.png "图4")
+.<img src="https://github.com/Cryptocxf/Reading-Report/blob/main/picture4.png" width="550" height="250" />
  <p align="center">  
 图4 基于有向无环图结构的区块链（白色代表验证了的交易，灰色代表tips）  
 </p>  
@@ -188,14 +188,14 @@
 
   * **系统体系结构**：根据功能划分为轻节点和全节点。轻节点为功率受限的设备，不存储区块链信息，可验证、运行POW算法和发送新的交易到全节点。全节点为更强大的设备，如网关和服务器，主要维护整个区块链网络。
   如图5所示，为基于区块链的工业物联网系统架构。无线传感器节点初始化生成区块链账号，即一对公开秘密密钥(PK, SK)，作为系统中唯一的标识符。网关作为全节点接收来自各种传感器的请求，并在tangle中广播交易，并只处理来自合法的，经过授权的传感器交易。管理者为一个特定的全节点，负责管理物联网设备。管理器的公钥编码到网关中的软件中，只有管理器有权发布设备的授权列表，并管理物联网设备的添加/删除。tangle网络为公共的区块链网络，任何一方都可以访问该网络。网关保证了网络的安全，并通过广播交易和保留区块链的副本来保持稳定。 
-![alt](https://github.com/Cryptocxf/Reading-Report/blob/main/picture5.png "图5")
+ <img src="https://github.com/Cryptocxf/Reading-Report/blob/main/picture5.png" width="400" height="350" />
  <p align="center">  
 图5 基于区块链的工业物联网系统架构  
 </p>  
 
   * **基于信用的POW机制**：定义具有信用值Cr属性的节点i，其信用值会根据节点的行为实时变化。正常行为会增加信用价值，异常行为会降低信用值。POW机制的难度根据每个节点的信用值自适应调整，信用值越低，运行时间越长。因此，该机制将使诚实节点消耗更少的资源，同时迫使恶意节点增加攻击代价。tangle网络是透明的，可以从DAG网络中获取所有传感器的交易信息和它们之间的关系。该系统中POW的难度与信用评分成反比，信用评分在整个系统周期内动态调整。
   * **数据权限管理**：作者提出了一种数据权限管理方法来支持系统中传感器数据的访问控制，和一种无需中央信任方的密钥分发方案。因此可以利用公开密钥加密来分发对称密钥，一次密钥分发分为三个步骤，如图6所示。
-![alt](https://github.com/Cryptocxf/Reading-Report/blob/main/picture6.png "图6")
+.<img src="https://github.com/Cryptocxf/Reading-Report/blob/main/picture6.png" width="400" height="350" />
  <p align="center">  
 图6 对称密钥分发过程  
 </p>  
