@@ -54,7 +54,7 @@
 
 **这是一篇研究区块链技术在IoT中存在的问题和挑战的综述**，指出了IoT许多的领域可以使用区块链技术来解决安全和隐私问题，同时也指出IoT领域并不是都必须使用区块链，并提供了一种判断是否必须使用区块链的方法，如图1所示。  
 .<div align=center>  
-    <img src="https://github.com/Cryptocxf/Reading-Report/blob/main/picture1.png" width="600" height="900" />  
+    <img src="https://github.com/Cryptocxf/Reading-Report/blob/main/picture1.png"/>  
  </div>  
  
  <p align="center">  
