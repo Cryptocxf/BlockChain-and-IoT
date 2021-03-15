@@ -18,7 +18,7 @@
 | [2] [Blockchain Technologies for the Internet of Things: Research Issues and Challenges](https://github.com/Cryptocxf/Reading-Report/blob/main/%5B2%5D-2019-Mohamed.pdf "mohamed") | Mohamed Amine Ferrag(Guelma University) | IEEE Internet of Things Journal | 2019 | 提出了IoT安全和隐私方面的威胁模型，并进行分类。 |  
 | [3] [Blockchain-Based Solutions to Security and Privacy Issues in the Internet of Things](https://github.com/Cryptocxf/Reading-Report/blob/main/%5B3%5D-2018-Yu.pdf "yu") | 禹勇(陕西师范大学密码学国家重点实验室) | IEEE Wireless Communication | 2018 | 针对IoT的问题，开发了一个区块链与IoT集成的应用框架。 |  
 | [4] [IoT security: Review, block-chain solutions, and open challenges](https://github.com/Cryptocxf/Reading-Report/blob/main/%5B4%5D-2018-Minhaj.pdf "minhaj") | Minhaj Ahmad (Bahauddin Zakariya University) | Future Generation Computer Systems | 2018 | 概述IoT的安全需求，并对IoT分层架构的安全问题进行了分类。 |  
-| [5] [Towards Secure Industrial IoT: Blockchain System with Credit-Based Consensus Mechanism](https://github.com/Cryptocxf/Reading-Report/blob/main/%5B5%5D-2019-Huang.pdf "huang") | Junqin Huang(电子科技大学) | IEEE Transactions on Industrial Informatics | 2019 | 面向工业IoT，提出了一种基于信用的共识机制的区块链系统 |  
+| [5] [Towards Secure Industrial IoT: Blockchain System with Credit-Based Consensus Mechanism](https://github.com/Cryptocxf/Reading-Report/blob/main/%5B5%5D-2019-Huang.pdf "huang") | Junqin Huang(上海交通大学) | IEEE Transactions on Industrial Informatics | 2019 | 面向工业IoT，提出了一种基于信用的共识机制的区块链系统 |  
 
 * 通过阅读论文[1]了解到，由于IoT的**拓扑结构**和**计算资源的约束**，传统的安全技术也不在完全适用于IoT，其在应用层、网络层和感知层中存在**隐私保护、认证与访问控制和数据安全**等**安全隐私问题**。以此为写作背景，作者通过**分析IoT应用中的安全问题，对区块链技术与IoT结合后的安全性问题进行归纳和提供解决思路**。  
 
